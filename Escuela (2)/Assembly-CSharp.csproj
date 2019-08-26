@@ -65,8 +65,6 @@
     <Compile Include="Assets\Paquetes de cosas\Breakable Windows\Scripts\BreakableWindow.cs" />
     <Compile Include="Assets\Paquetes de cosas\EscalatorPro\Script\Runtime\EscalatorPro.cs" />
     <Compile Include="Assets\Paquetes de cosas\EscalatorPro\Script\Runtime\Stair.cs" />
-    <Compile Include="Assets\Paquetes de cosas\PuertaLlave\DoorKey.cs" />
-    <Compile Include="Assets\Paquetes de cosas\PuertaLlave\DoorScript.cs" />
     <Compile Include="Assets\Paquetes de cosas\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Paquetes de cosas\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\Paquetes de cosas\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
@@ -80,9 +78,12 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\ControladorNavMesh.cs" />
+    <Compile Include="Assets\Scripts\DoorKey.cs" />
+    <Compile Include="Assets\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Scripts\MaloSigueBueno.cs" />
     <Compile Include="Assets\Scripts\MovCamara.cs" />
     <Compile Include="Assets\Scripts\MovWachin.cs" />
+    <Compile Include="Assets\Scripts\Puerta.cs" />
     <Compile Include="Assets\Scripts\Reaparicion.cs" />
     <None Include="Assets\Paquetes de cosas\EscalatorPro\README.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
