@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\ControladorNavMesh.cs" />
     <Compile Include="Assets\Scripts\DoorKey.cs" />
     <Compile Include="Assets\Scripts\DoorScript.cs" />
+    <Compile Include="Assets\Scripts\InfoPantalla.cs" />
     <Compile Include="Assets\Scripts\MaloSigueBueno.cs" />
     <Compile Include="Assets\Scripts\MovCamara.cs" />
     <Compile Include="Assets\Scripts\MovWachin.cs" />
