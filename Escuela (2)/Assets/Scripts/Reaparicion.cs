@@ -13,9 +13,9 @@ public class Reaparicion : MonoBehaviour
     {
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision other)
     {
-        if(collision.gameObject.tag == "NPC")
+        if(other.gameObject.tag == "NPC")
         {
             this.gameObject.transform.position = new Vector3(-11, 1, 20);
         }

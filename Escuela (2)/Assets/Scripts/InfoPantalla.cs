@@ -21,7 +21,7 @@ public class InfoPantalla : MonoBehaviour
         if(Input.GetKey(KeyCode.T))
         {
             
-            GUI.Box(new Rect(0, 0, 400, 25), "Busca la llave que te permita abrir el aula 1111");
+            GUI.Box(new Rect(0, 0, 400, 25), "Busca la llave que te permita acceder a las escaleras");
         }
     }
 }
