@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Reaparicion : MonoBehaviour
 {
+    public GameObject puntoreaparicion;
     void Start()
     {
         
@@ -13,11 +14,23 @@ public class Reaparicion : MonoBehaviour
     {
     }
 
-    void OnCollisionEnter(Collision other)
+   /* void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "NPC")
+
+        if(other.gameObject.tag == "Player")
         {
-            this.gameObject.transform.position = new Vector3(-11, 1, 20);
+            Debug.Log("Se tocan");
+            other.gameObject.transform.position  = puntoreaparicion.transform.position;
         }
     }
+    */
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag == "NPC")
+        {
+            Debug.Log("Se tocan");
+            this.gameObject.transform.position = puntoreaparicion.transform.position;
+        }
+    }
+   
 }
