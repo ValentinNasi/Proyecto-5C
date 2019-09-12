@@ -22,7 +22,7 @@ public class MenuPrincipal : MonoBehaviour
     }
     public void CerrarJuego()
     {
-        Application.Quit();
+        Application.Quit(0);
         Debug.Log("salir");
     }
 }

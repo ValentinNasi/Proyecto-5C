@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Reaparicion : MonoBehaviour
 {
@@ -14,23 +15,31 @@ public class Reaparicion : MonoBehaviour
     {
     }
 
-   /* void OnTriggerEnter(Collider other)
+   void OnTriggerEnter(Collider other)
     {
-
-        if(other.gameObject.tag == "Player")
+        
+        int vida = 1;
+        if(other.gameObject.tag == "NPC")
         {
             Debug.Log("Se tocan");
-            other.gameObject.transform.position  = puntoreaparicion.transform.position;
+            vida = 0;
+            if (vida == 0)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+            else
+                vida = 1;
+            
         }
     }
-    */
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+    
+    /*private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         if (hit.gameObject.tag == "NPC")
         {
             Debug.Log("Se tocan");
             this.gameObject.transform.position = puntoreaparicion.transform.position;
         }
-    }
+    }*/
    
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1586,8 +1586,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -155.78, y: -7.632025}
-  m_SizeDelta: {x: 173.08, y: 46.7}
+  m_AnchoredPosition: {x: -173.01, y: -7.632025}
+  m_SizeDelta: {x: 207.54, y: 46.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161034547
 MonoBehaviour:
@@ -1609,8 +1609,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.4433962, g: 0.4413047, b: 0.4413047, a: 0.9019608}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_HighlightedColor: {r: 0.4433962, g: 0.4413047, b: 0.4413047, a: 1}
     m_PressedColor: {r: 0.5943396, g: 0.5747152, b: 0.5747152, a: 1}
     m_SelectedColor: {r: 0.254717, g: 0.25111252, b: 0.25111252, a: 0.91764706}
     m_DisabledColor: {r: 0.05660379, g: 0.0542008, b: 0.0542008, a: 0.32156864}
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.9921569, g: 0.9921569, b: 0.9921569, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2399,8 +2399,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 30.2, y: 0}
-  m_SizeDelta: {x: 60.4, y: 0}
+  m_AnchoredPosition: {x: -5.85, y: 0}
+  m_SizeDelta: {x: -11.7, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1882696201
 MonoBehaviour:
@@ -2422,7 +2422,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'jugar
+  m_text: 'Jugar
 
 '
   m_isRightToLeft: 0
@@ -2460,7 +2460,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_textAlignment: 257
+  m_textAlignment: 260
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -2491,7 +2491,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0127563, y: 0, z: 61.61383, w: 0}
+  m_margin: {x: -12.419144, y: 0, z: 63.21689, w: 0}
   m_textInfo:
     textComponent: {fileID: 1882696201}
     characterCount: 6

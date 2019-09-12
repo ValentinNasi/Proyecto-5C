@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Escuela2.unity
     guid: 31e29e08628854249aac14dcc3a8a825
+  - enabled: 1
+    path: Assets/PantallaDeCarga.unity
+    guid: 170785e1e2c3f6e4cb8ac751b5b056b0
   m_configObjects: {}
