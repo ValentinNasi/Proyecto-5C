@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Reaparicion : MonoBehaviour
 {
-    public GameObject puntoreaparicion;
+   // public GameObject puntoreaparicion;
     void Start()
     {
         
