@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\MenuPrincipal.cs" />
     <Compile Include="Assets\Scripts\MovCamara.cs" />
     <Compile Include="Assets\Scripts\MovWachin.cs" />
+    <Compile Include="Assets\Scripts\PatearPelota.cs" />
     <Compile Include="Assets\Scripts\Puerta.cs" />
     <Compile Include="Assets\Scripts\Puerta2.cs" />
     <Compile Include="Assets\Scripts\Puerta3.cs" />
