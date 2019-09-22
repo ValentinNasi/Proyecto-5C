@@ -1834,8 +1834,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 350894241}
-  - component: {fileID: 350894240}
   - component: {fileID: 350894239}
+  - component: {fileID: 350894240}
   m_Layer: 0
   m_Name: Bisagra (SiguienteNivel)
   m_TagString: Untagged
@@ -1866,11 +1866,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350894238}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.51, y: 1, z: 41.66}
-  m_Center: {x: -0.2, y: 0, z: 0}
+  m_Size: {x: 2.4750333, y: 1.0672688, z: 24.41}
+  m_Center: {x: -0.72751653, y: 0.033634704, z: 0.5}
 --- !u!4 &350894241
 Transform:
   m_ObjectHideFlags: 0
@@ -1879,7 +1879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350894238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.72, y: 1.635, z: 17.67}
+  m_LocalPosition: {x: 55.63, y: 1.635, z: 17.67}
   m_LocalScale: {x: 1.7359899, y: 3.10212, z: 0.099999994}
   m_Children:
   - {fileID: 416373318}
@@ -6482,7 +6482,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 109c1c282b85a3e4b9821522db09cf81,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.9
+      value: 44.88
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 109c1c282b85a3e4b9821522db09cf81,
         type: 3}
@@ -7811,8 +7811,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961691701}
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -0.75298965, y: 0.101543486, z: -15.791285}
-  m_LocalScale: {x: 0.19162315, y: 10, z: 0.09910675}
+  m_LocalPosition: {x: -1.2771862, y: 0.101543486, z: -15.791285}
+  m_LocalScale: {x: 0.19162399, y: 10, z: 0.099106945}
   m_Children:
   - {fileID: 1789850782}
   m_Father: {fileID: 350894241}

@@ -20,6 +20,7 @@ public class Gol : MonoBehaviour
             if (inTrigger)
             {
                 clipboard.SetActive(true);
+                inTrigger = false;
             }
         /* if (PuertaSiguienteNivel.doorKey == true)
          {
@@ -33,9 +34,9 @@ public class Gol : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                clipboard.SetActive(false);
+               // clipboard.SetActive(false);
                 PuertaSiguienteNivel.doorKey = true;
-                //Destroy(clipboard);
+                Destroy(clipboard);
 
             }
         }
