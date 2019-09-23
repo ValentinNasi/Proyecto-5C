@@ -13266,6 +13266,10 @@ PrefabInstance:
       propertyPath: MinDistance
       value: 1.3359423
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_JumpSpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_TagString
       value: MainCamera
@@ -19445,6 +19449,7 @@ GameObject:
   - component: {fileID: 950718255}
   - component: {fileID: 950718257}
   - component: {fileID: 950718256}
+  - component: {fileID: 950718258}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -19515,6 +19520,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950718254}
   m_Mesh: {fileID: -2432090755550338912, guid: 2d5a12fafcc04ae489241bf3d09da770, type: 3}
+--- !u!65 &950718258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950718254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.455528, y: 0.11115209, z: 12.426471}
+  m_Center: {x: -0.012164363, y: 0.00000035991866, z: 1.2673138}
 --- !u!1 &951200015 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b55cee7d445c69c4e9983d896e473f66,

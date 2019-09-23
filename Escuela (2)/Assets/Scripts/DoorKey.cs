@@ -15,15 +15,17 @@ public class DoorKey : MonoBehaviour
     {
         inTrigger = false;
     }
-
+    
     void Update()
     {
+        
         if (inTrigger)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
                 PuertaSiguienteNivel.doorKey = true;
                 Destroy(this.gameObject);
+                
             }
         }
     }
