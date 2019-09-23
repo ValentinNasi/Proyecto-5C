@@ -17,38 +17,29 @@ public class Gol : MonoBehaviour
     void Update()
     {
        
-            if (inTrigger)
-            {
-                clipboard.SetActive(true);
-                inTrigger = false;
-            }
-        /* if (PuertaSiguienteNivel.doorKey == true)
-         {
-             clipboard.SetActive(false);
-
-             Destroy(clipboard);
-         }*/
-
+        if (inTrigger)
+        {
+            clipboard.SetActive(true);
+            inTrigger = false;
+        }
 
         if (ClipBoardKey.inTrigger)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
                // clipboard.SetActive(false);
-                PuertaSiguienteNivel.doorKey = true;
+                PuertaSiguienteNivelGym.doorKey = true;
                 Destroy(clipboard);
 
             }
         }
-
     }
-
     private void OnTriggerEnter(Collider other)
     {
-        inTrigger = true;
+        if(other.gameObject.tag == "Pelota")
+        {
+            inTrigger = true;
+        }
+        
     }
-    /*private void OnTriggerExit(Collider other)
-    {
-        inTrigger = true;
-    }*/
 }

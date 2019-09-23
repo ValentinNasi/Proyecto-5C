@@ -15,26 +15,6 @@ public class ClipBoardKey : MonoBehaviour
     {
         inTrigger = false;
     }
-
-   /* void Update()
-    {
-        if (Gol.inTrigger == true)
-        {
-           Gol.clipboard.SetActive(true);
-        }
-
-
-        if (inTrigger)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                PuertaSiguienteNivel.doorKey = true;
-                Destroy(Gol.clipboard);
-
-            }
-        }
-    }
-*/
     void OnGUI()
     {
         if (inTrigger)

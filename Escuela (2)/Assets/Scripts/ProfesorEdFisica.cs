@@ -26,15 +26,14 @@ public class ProfesorEdFisica : MonoBehaviour
         float distancia = Vector3.Distance(player.transform.position, transform.position);
 
         if (distancia < radioVision)
-        {
-            GUI.Box(new Rect(0, 0, 400, 25), "Profesor: -Daleeeee, mete un gol asi podemos irnos al aula");
+        {           
+                GUI.Box(new Rect(0, 0, 400, 25), "Profesor: -Daleeeee, mete un gol asi podemos irnos al aula-");                
         }
-        else
+       /* else
         {
-            GUI.Box(new Rect(0, 0, 400, 25), "Convierte un gol para volver a tu aula del colegio");
-
+                 GUI.Box(new Rect(0, 0, 400, 25), "Convierte un gol para volver a tu aula del colegio");
         }
-
+        */
     }
     void OnDrawGizmos()
     {
