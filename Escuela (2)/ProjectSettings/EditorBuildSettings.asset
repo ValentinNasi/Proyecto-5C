@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/menu.unity
     guid: 89aa6450312401249902d459241867dd
   - enabled: 1
+    path: Assets/Tercer piso.unity
+    guid: e936637e4df67ae489f24fad9e845621
+  - enabled: 1
     path: Assets/Escuela.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1

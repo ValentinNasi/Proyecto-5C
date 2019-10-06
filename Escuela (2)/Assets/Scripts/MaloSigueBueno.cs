@@ -43,11 +43,4 @@ public class MaloSigueBueno : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, radioVision);
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {      
-            player.transform.position = new Vector3(-11, 1, 20);
-        }       
-    }
 }

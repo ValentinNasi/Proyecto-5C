@@ -14,9 +14,11 @@ public class CambioEscena : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter(Collider other)
     {
+        
+
         if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Escuela2"); 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1); 
         }
     }
 }
