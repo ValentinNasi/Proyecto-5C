@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Tercer piso.unity
+- path: Assets/Escuela2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
