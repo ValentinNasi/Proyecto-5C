@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Escuela.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Escuela2.unity
+    path: Assets/Pruebas Animaciones.unity
     guid: 31e29e08628854249aac14dcc3a8a825
   - enabled: 1
     path: Assets/PantallaDeCarga.unity
