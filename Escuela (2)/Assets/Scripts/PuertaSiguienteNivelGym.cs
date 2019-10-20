@@ -8,7 +8,10 @@ public class PuertaSiguienteNivelGym : MonoBehaviour
     public bool open;
     public bool close;
     public bool inTrigger;
-
+    void Awake()
+    {
+        doorKey = false;    
+    }
     void OnTriggerEnter(Collider other)
     {
         inTrigger = true;

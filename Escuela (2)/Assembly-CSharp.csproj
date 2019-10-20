@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\ControladorNavMesh.cs" />
     <Compile Include="Assets\Scripts\DoorKey.cs" />
     <Compile Include="Assets\Scripts\DoorKey1_DoorScript.cs" />
+    <Compile Include="Assets\Scripts\DoorKeyUltimo.cs" />
     <Compile Include="Assets\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Scripts\Gol.cs" />
     <Compile Include="Assets\Scripts\InfoPantalla.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\Scripts\Puerta4.cs" />
     <Compile Include="Assets\Scripts\PuertaSiguienteNivel.cs" />
     <Compile Include="Assets\Scripts\PuertaSiguienteNivelGym.cs" />
+    <Compile Include="Assets\Scripts\PuertaSiguienteNivelUltimo.cs" />
     <Compile Include="Assets\Scripts\Reaparicion.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

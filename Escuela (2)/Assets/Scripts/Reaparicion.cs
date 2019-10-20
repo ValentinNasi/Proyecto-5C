@@ -8,7 +8,7 @@ public class Reaparicion : MonoBehaviour
    // public GameObject puntoreaparicion;
     void Start()
     {
-        
+       
     }
 
     void Update()
@@ -25,7 +25,9 @@ public class Reaparicion : MonoBehaviour
             vida = 0;
             if (vida == 0)
             {
+                PuertaSiguienteNivelGym.doorKey = false;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                PuertaSiguienteNivelGym.doorKey = false;
             }
             else
                 vida = 1;
