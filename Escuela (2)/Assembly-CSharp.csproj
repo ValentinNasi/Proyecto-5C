@@ -62,11 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AtraparAlmas.cs" />
     <Compile Include="Assets\Scripts\Bullys.cs" />
     <Compile Include="Assets\Scripts\CambioEscena.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\ClipBoardKey.cs" />
     <Compile Include="Assets\Scripts\ControladorNavMesh.cs" />
+    <Compile Include="Assets\Scripts\Demonio.cs" />
     <Compile Include="Assets\Scripts\DoorKey.cs" />
     <Compile Include="Assets\Scripts\DoorKey1_DoorScript.cs" />
     <Compile Include="Assets\Scripts\DoorKeyUltimo.cs" />

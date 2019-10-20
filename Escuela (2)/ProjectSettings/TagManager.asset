@@ -7,6 +7,10 @@ TagManager:
   - NPC
   - Pelota
   - Clipboard
+  - Atrapado
+  - A1
+  - A2
+  - ZonaAtrapar
   layers:
   - Default
   - TransparentFX
