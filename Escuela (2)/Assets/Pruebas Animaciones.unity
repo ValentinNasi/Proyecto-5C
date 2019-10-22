@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 38d14d399af203c4c8f6c40f4a696676, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 445d89be598ad994ba7adf3157a0f736, type: 2}
 --- !u!1001 &2132273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15409,11 +15409,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: NPC
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 243ea98a37d54a94b8d9e1ad2e3ba5a7,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d55c1e35b24e76f4bb32053e99614462, type: 2}
     - target: {fileID: -4216859302048453862, guid: 243ea98a37d54a94b8d9e1ad2e3ba5a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15484,6 +15479,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.92196
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 243ea98a37d54a94b8d9e1ad2e3ba5a7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d55c1e35b24e76f4bb32053e99614462, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 243ea98a37d54a94b8d9e1ad2e3ba5a7, type: 3}
 --- !u!1001 &743173414
@@ -30371,11 +30371,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: NPC
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: efcb6fb5e1d843b49a0297b1bf964141,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 5d3ca18ba0987714b9134ffd669c44ee, type: 2}
     - target: {fileID: -4216859302048453862, guid: efcb6fb5e1d843b49a0297b1bf964141,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30446,6 +30441,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.725
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: efcb6fb5e1d843b49a0297b1bf964141,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5d3ca18ba0987714b9134ffd669c44ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efcb6fb5e1d843b49a0297b1bf964141, type: 3}
 --- !u!1001 &1412509995

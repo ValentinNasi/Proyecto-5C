@@ -62,9 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AtraparAlmas.cs" />
     <Compile Include="Assets\Scripts\Bullys.cs" />
     <Compile Include="Assets\Scripts\CambioEscena.cs" />
+    <Compile Include="Assets\Scripts\CambioEscenaUltimoNivel.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\ClipBoardKey.cs" />
     <Compile Include="Assets\Scripts\ControladorNavMesh.cs" />
@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\DoorKeyUltimo.cs" />
     <Compile Include="Assets\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Scripts\Gol.cs" />
+    <Compile Include="Assets\Scripts\heartKey.cs" />
     <Compile Include="Assets\Scripts\InfoPantalla.cs" />
     <Compile Include="Assets\Scripts\InfoPatallaGym.cs" />
     <Compile Include="Assets\Scripts\Loading.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\Scripts\MovCamara.cs" />
     <Compile Include="Assets\Scripts\MovWachin.cs" />
     <Compile Include="Assets\Scripts\PatearPelota.cs" />
+    <Compile Include="Assets\Scripts\PoderVarita.cs" />
     <Compile Include="Assets\Scripts\ProfesorEdFisica.cs" />
     <Compile Include="Assets\Scripts\Puerta.cs" />
     <Compile Include="Assets\Scripts\Puerta2.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="Assets\Scripts\PuertaSiguienteNivelGym.cs" />
     <Compile Include="Assets\Scripts\PuertaSiguienteNivelUltimo.cs" />
     <Compile Include="Assets\Scripts\Reaparicion.cs" />
+    <Compile Include="Assets\Scripts\Varita.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

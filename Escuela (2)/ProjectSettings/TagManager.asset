@@ -8,9 +8,7 @@ TagManager:
   - Pelota
   - Clipboard
   - Atrapado
-  - A1
-  - A2
-  - ZonaAtrapar
+  - ActivacionVarita
   layers:
   - Default
   - TransparentFX

@@ -5,17 +5,37 @@ using UnityEngine;
 public class Demonio : MonoBehaviour
 {
     public bool inTrigger;
-
+    public GameObject varita;
+    public static bool heart;
     void Start()
     {
         
     }
 
+    //public bool inTrigger;
+  
+
+    void Awake()
+    {
+        heart = false;
+        //varita.SetActive(false);
+
+    }
+
     void Update()
     {
-        
+        if (inTrigger)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                varita.SetActive(true);
+                inTrigger = false;
+                Destroy(this.gameObject);
+            }
+        }
+       
     }
-    
+
     void OnTriggerEnter(Collider other)
     {
         inTrigger = true;
@@ -29,7 +49,15 @@ public class Demonio : MonoBehaviour
     {
         if (inTrigger)
         {
-            GUI.Box(new Rect(0, 60, 300, 25), "Traeme 2 vidas humanas y haremos un trato");
+            if (heart)
+            {
+                GUI.Box(new Rect(0, 60, 230, 25), "Presiona E para realizar el trato");
+            }
+            else
+            {
+                GUI.Box(new Rect(0, 60, 500, 25), "Traeme el corazon que esta al final del laberinto y tendremos un trato");
+            }
+            
         }
     }
 }
