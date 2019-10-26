@@ -6,9 +6,22 @@ public class heartKey : MonoBehaviour
 {
     public static bool inTrigger;
 
+    void Awake()
+    {
+        this.gameObject.SetActive(false);    
+    }
+    void Start()
+    {
+        Demonio.heart = false;
+        inTrigger = false;
+    }
+
     void OnTriggerEnter(Collider other)
     {
-        inTrigger = true;
+        if(other.gameObject.tag == "Player")
+        {
+            inTrigger = true;
+        }
     }
 
     void OnTriggerExit(Collider other)
@@ -19,12 +32,16 @@ public class heartKey : MonoBehaviour
     {
         if (inTrigger)
         {
-            GUI.Box(new Rect(0, 60, 300, 25), "Presiona E agarrar el corazon");
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Demonio.heart == false)
             {
-                Destroy(this.gameObject);
-                Demonio.heart = true;
+                GUI.Box(new Rect(0, 60, 300, 25), "Presiona E agarrar el corazon");
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    Destroy(this.gameObject);
+                    Demonio.heart = true;
+                }
             }
+           
               
         }
     }

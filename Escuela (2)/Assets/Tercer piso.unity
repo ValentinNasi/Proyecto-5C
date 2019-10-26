@@ -3890,6 +3890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: jasper
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0f352d874c1cd9940a3f51d35886c9b6,
+        type: 3}
+      propertyPath: m_TagString
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: -6057140222963153312, guid: 0f352d874c1cd9940a3f51d35886c9b6,
         type: 3}
       propertyPath: m_Controller

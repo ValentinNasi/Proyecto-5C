@@ -9,7 +9,7 @@ public class Demonio : MonoBehaviour
     public static bool heart;
     void Start()
     {
-        
+        heart = false;
     }
 
     //public bool inTrigger;
@@ -17,7 +17,7 @@ public class Demonio : MonoBehaviour
 
     void Awake()
     {
-        heart = false;
+        
         //varita.SetActive(false);
 
     }
@@ -26,12 +26,16 @@ public class Demonio : MonoBehaviour
     {
         if (inTrigger)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (heart)
             {
-                varita.SetActive(true);
-                inTrigger = false;
-                Destroy(this.gameObject);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    varita.SetActive(true);
+                    inTrigger = false;
+                    Destroy(this.gameObject);
+                }
             }
+           
         }
        
     }

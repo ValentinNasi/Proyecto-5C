@@ -6,6 +6,12 @@ public class DoorKey : MonoBehaviour
 
     public bool inTrigger;
 
+    void Start()
+    {
+        inTrigger = false;
+        PuertaSiguienteNivel.doorKey = false;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         inTrigger = true;

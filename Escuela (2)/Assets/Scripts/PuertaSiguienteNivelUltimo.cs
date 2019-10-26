@@ -10,6 +10,10 @@ public class PuertaSiguienteNivelUltimo : MonoBehaviour
     public bool inTrigger;
     void Awake()
     {
+       // doorKey = false;
+    }
+    void Start()
+    {
         doorKey = false;
     }
     void OnTriggerEnter(Collider other)

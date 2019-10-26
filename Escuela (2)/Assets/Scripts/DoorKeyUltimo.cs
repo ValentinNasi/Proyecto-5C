@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoorKeyUltimo : MonoBehaviour
 {
     public bool inTrigger;
-
+    public GameObject corazon;
     void OnTriggerEnter(Collider other)
     {
         inTrigger = true;
@@ -25,7 +25,8 @@ public class DoorKeyUltimo : MonoBehaviour
             {
                 PuertaSiguienteNivelUltimo.doorKey = true;
                 Destroy(this.gameObject);
-
+                corazon.SetActive(true);
+                Demonio.heart = false;
             }
         }
     }

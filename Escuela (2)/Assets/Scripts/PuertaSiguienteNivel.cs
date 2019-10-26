@@ -9,6 +9,12 @@ public class PuertaSiguienteNivel : MonoBehaviour
     public bool close;
     public bool inTrigger;
 
+    void Start()
+    {
+        doorKey = false;
+        inTrigger = false;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         inTrigger = true;

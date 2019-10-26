@@ -8,9 +8,10 @@ public class PuertaSiguienteNivelGym : MonoBehaviour
     public bool open;
     public bool close;
     public bool inTrigger;
-    void Awake()
+    void Start()
     {
-        doorKey = false;    
+        doorKey = false;
+        inTrigger = false;
     }
     void OnTriggerEnter(Collider other)
     {
@@ -39,10 +40,13 @@ public class PuertaSiguienteNivelGym : MonoBehaviour
             }
             else
             {
-                if (Input.GetKeyDown(KeyCode.E))
+                if (doorKey)
                 {
-                    close = true;
-                    open = false;
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        open = false;
+                        close = true;
+                    }
                 }
             }
         }

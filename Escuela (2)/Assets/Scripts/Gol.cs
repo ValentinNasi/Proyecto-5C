@@ -7,10 +7,11 @@ public class Gol : MonoBehaviour
     public bool inTrigger;
     public GameObject clipboard;
     
-    void Awake()
+    void Start()
     {
        
         clipboard.SetActive(false);
+        inTrigger = false;
         
     }
 
@@ -19,19 +20,12 @@ public class Gol : MonoBehaviour
        
         if (inTrigger)
         {
-            clipboard.SetActive(true);
-            inTrigger = false;
-        }
-
-        if (ClipBoardKey.inTrigger)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-               // clipboard.SetActive(false);
-                PuertaSiguienteNivelGym.doorKey = true;
-                Destroy(clipboard);
-
+            if(PuertaSiguienteNivelGym.doorKey == false)
+            {                            
+                clipboard.SetActive(true);
+                inTrigger = false;                           
             }
+            
         }
     }
     private void OnTriggerEnter(Collider other)
