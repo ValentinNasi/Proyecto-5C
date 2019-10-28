@@ -25,4 +25,16 @@ public class MenuPrincipal : MonoBehaviour
         Application.Quit();
         Debug.Log("se salio xd");
     }
+    public void EmpezarNivel1()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void EmpezarNivel2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+    public void EmpezarNivel3()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
 }

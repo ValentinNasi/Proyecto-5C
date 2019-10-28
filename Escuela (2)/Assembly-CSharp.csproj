@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\salir.cs" />
     <Compile Include="Assets\Scripts\Bullys.cs" />
     <Compile Include="Assets\Scripts\CambioEscena.cs" />
     <Compile Include="Assets\Scripts\CambioEscenaUltimoNivel.cs" />
